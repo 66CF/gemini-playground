@@ -16,7 +16,9 @@
 <body>
     <div id="app">
         <div class="settings">
-            <input type="password" id="api-key" placeholder="Please Input Gemini API Key" />
+            <div class="input-container">
+                <input type="text" id="api-key" placeholder="Please Input Gemini API Key" value="AIzaSyBO1A7alYPn8dx9q08gQ1wxGMTWlMFW294" />
+            </div>
             <button id="config-toggle" class="material-symbols-outlined">settings</button>
         </div>
         <div id="config-container" class="hidden-mobile">
@@ -85,5 +87,8 @@
         </div>
     </div>
     <script src="js/main.js" type="module"></script>
+    <footer class="attribution">
+        <p>Forked by 66CF | <a href="https://github.com/66CF/gemini-playground" target="_blank">Code</a> | Model: Gemini 2.0 Flash</p>
+    </footer>
 </body>
 </html> 

@@ -611,3 +611,21 @@ body {
     color: #666;
     font-size: 12px;
 }
+
+.attribution {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #eee;
+}
+
+.attribution a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
